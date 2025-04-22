@@ -21,3 +21,7 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+// server/server.js
+const mentorRoutes = require('./routes/mentorRoutes');
+
+app.use('/api', mentorRoutes);
