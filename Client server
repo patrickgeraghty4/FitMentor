@@ -1,0 +1,8 @@
+mkdir client server
+touch README.md
+cd client
+npx create-next-app@latest . --typescript
+cd ../server
+npm init -y
+npm install express cors body-parser dotenv
+touch server.js .env
