@@ -1,0 +1,20 @@
+fitmentor/
+├── 📦 client/                 # Next.js frontend
+│   ├── 📱 app/                # Next.js app router (pages, layouts)
+│   ├── 🧩 components/         # React components
+│   ├── 💅 styles/             # Global styles (Tailwind config)
+│   ├── 🛠️ bin/                # Client-side scripts
+│   ├── next.config.js         # Next.js API rewrites
+│   └── tsconfig.json          # TypeScript config
+│
+├── ⚙️ server/                 # Express.js backend
+│   ├── 📂 src/                # Server-side logic
+│   │   ├── 🛣️ routes/        # API routes for fitness and academic agents
+│   │   ├── 📂 agents/         # Fitness, Study, and Memory agents
+│   │   ├── 🛠️ middlewares/   # Middleware for API rate limiting, authentication, etc.
+│   │   ├── index.ts           # Server entry (Express.js setup)
+│   └── tsconfig.json          # TypeScript config
+│
+├── 📦 scripts/                # Project scripts (dev, prod, etc.)
+├── 📝 .env.example            # Environment variables
+└── 🔧 pnpm-workspace.yaml     # PNPM workspace setup
