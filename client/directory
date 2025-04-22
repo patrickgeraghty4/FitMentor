@@ -1,2 +1,3 @@
+mkdir client
 cd client
-npm install
+npx create-next-app@latest .
